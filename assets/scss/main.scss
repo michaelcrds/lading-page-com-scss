@@ -1,0 +1,31 @@
+.about-web-design{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-web-design article {
+    width: 250px;
+}
+
+.about-web-design figcaption img{
+    width: 700px;
+}
+
+.about-web-design h1 {
+    font-size: $h1;
+    font-weight: 400;
+    line-height: 90%;
+    color: $secondary-color;
+}
+
+.about-web-design h2 {
+    font-size: $h2;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    line-height: 200%;
+    color: $primary-color;
+}
+
+.about-web-design p {
+    margin: 20px 0 40px;
+}

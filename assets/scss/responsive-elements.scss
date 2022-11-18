@@ -1,0 +1,90 @@
+@media(max-width: 1100px){
+    .container{
+        width: 900px;
+    }
+    .about-web-design figcaption img{
+        width: 600px;
+    }
+}
+
+@media(max-width: 1000px){
+    .container{
+        width: 800px;
+    }
+
+    .about-web-design figcaption img{
+        width: 500px;
+    }
+}
+
+@media(max-width: 900px){
+    body{
+        background-position: left -300px;
+    }
+    
+    .container{
+        width: 600px;
+    }
+
+    header .row{
+        flex-direction: column;
+    }
+
+    header section nav{
+        margin: 30px 0;
+    }
+
+    main .row{
+        flex-direction: column;
+    }
+
+    .about-web-design article{
+        width: 100%;
+    }
+    
+
+    footer ul{
+        justify-content: center;
+    }
+    
+    footer ul li a img {
+        width: 25px;
+    }
+}
+
+@media(max-width: 665px){
+    .container{
+        width: 400px;
+    }
+}
+
+@media(max-width: 550px){
+    .container{
+        width: 370px;
+    }
+
+    .about-web-design figcaption img{
+        width: 90%;
+    }
+}
+
+@media(max-width: 450px){
+    .container{
+        width: 290px;
+    }
+
+    header nav {
+        background-color: $white-color;
+        width: 100%;
+        padding: 15px 0;
+        border-radius: 4px;
+        box-shadow: 0 10px 30px rgba($color: #000000, $alpha: 0.3);
+    }
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin:  0 0 15px 0;
+    }
+}
